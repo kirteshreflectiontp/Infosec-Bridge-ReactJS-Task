@@ -1,38 +1,210 @@
+@font-face {
+  font-family: rubic-r;
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: rubic-m;
+  src: url(./fonts/Rubik-Medium.ttf);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #CBCBCB;
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
+}
+
+.body {
+  margin: 0px auto;
+  width: 375px;
+  height: 812px;
+  background: #F7F8F9;
+  opacity: 1;
+  text-align: left;
+}
+
+.land-col-1 {
+  height: 549px;
+}
+
+.land-col-2 {
+  height: 263px;
+}
+
+.land-col-3 {
+  height: 736px;
+}
+
+.land-col-4 {
+  height: 76px;
+}
+
+.land-col-5 {
+  height: 199px;
+}
+
+.side-m {
+  margin: 0px 20px;
+}
+
+.m-0 {
+  margin-bottom: 10px;
+}
+
+.m-1 {
+  padding: 20px;
+}
+
+.m-2 {
+  margin-top: 21px;
+}
+
+.m-3 {
+  margin-bottom: 23px;
+}
+
+.m-4 {
+  margin-bottom: 29px;
+}
+
+.m-5 {
+  margin-bottom: 14px;
+}
+
+.m-6 {
+  margin-bottom: 33px;
+}
+
+.b-1 {
+  border-bottom: 1px dashed #CBCBCB;
+}
+
+.page-h-1 {
+  width: 231px;
+  font-size: 28px;
+  font-family: rubic-m;
+  color: #1D2226;
+}
+
+.page-h-2 {
+  width: 232px;
+  font-size: 18px;
+  font-family: rubic-r;
+  color: #1D2226;
+}
+
+.btn-h-w {
+  width: 335px;
+  height: 46px;
+}
+
+.btn-1 {
+  background: #6C25FF;
+  color: #FFFFFF;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn-2 {
+  background: #6C25FF4B;
+  color: #1D2226;
+  margin-bottom: 41px;
+}
+
+.input-p {
+  position: relative;
+}
+
+.input-1 {
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  padding: 0px;
+
+}
+
+.input-lbl-1 {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  font-size: 13px;
+  font-family: rubic-r;
+  color: #6C25FF;
+  background: #F7F8F9;
+
+}
+
+.star-imp {
+  color: #DD4A3D;
+}
+
+.input-2-clr {
+  color: #1D2226;
+  font-size: 13px;
+  font-family: rubic-r;
+}
+
+.btn-login {
+  background: #CBCBCB;
+  color: #FFFFFF;
+}
+
+.btn-common {
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-family: rubic-m;
+  border: none;
+}
+
+.radio-input {
+  background: #6C25FF;
+}
+
+.radio-lbl {
+  color: #1D2226;
+  font-size: 14px;
+  font-family: rubic-r;
+}
+
+.last-h {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 68px;
+  padding: 0px 15px;
+  color: #1D2226;
+  font-size: 18px;
+  font-family: rubic-r;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
 }
 
-.App-link {
-  color: #61dafb;
+.last-p {
+  height: 63px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last-p-1 {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0px;
+}
+
+.last-h-1 {
+  color: #1D2226;
+  font-size: 15px;
+  font-family: rubic-r;
+  margin-bottom: 6px;
+}
+
+.last-block {
+  height: 525px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.last-block div {
+  margin-bottom: 36px;
+  border-top: 1px dashed #CBCBCB;
+  width: 375px;
 }

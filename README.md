@@ -9,7 +9,6 @@ Submitted the code for a given task after applying ReactJS Developer Fresher pos
 # React-Packages used - 
 
 React-router-Dom
-React-Icons
 
 # React-Functionalities used - 
 

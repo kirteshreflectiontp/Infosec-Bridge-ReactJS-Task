@@ -28,10 +28,12 @@ const SignUp = () => {
         </div>
         <div >
           <p className=' input-2-clr'>Are you an Agency?<span className='star-imp'>*</span></p>
+          <div className='r-wrap'>
           <input className='radio-input' type='radio' id="yes" name="Agency" value="yes" />
           <label className='radio-lbl' for="yes">Yes</label>
           <input className='radio-input' type='radio' id="no" name="Agency" value="no" />
           <label className='radio-lbl' for="no">No</label>
+          </div>
         </div>
       </div>
       <div className='land-col-4' onClick={gotohome}>

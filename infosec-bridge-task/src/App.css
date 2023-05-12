@@ -92,6 +92,7 @@
   font-size: 18px;
   font-family: rubic-r;
   color: #1D2226;
+  opacity: 0.6;
 }
 
 .btn-h-w {
@@ -158,7 +159,8 @@
 }
 
 .radio-input {
-  background: #6C25FF;
+  width: 22px;
+    height: 22px;
 }
 
 .radio-lbl {
@@ -207,4 +209,16 @@
   margin-bottom: 36px;
   border-top: 1px dashed #CBCBCB;
   width: 375px;
+}
+
+.icon-a {
+  position: absolute;
+  bottom: 1px;
+  right: -2px;
+}
+.r-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 132px;
 }

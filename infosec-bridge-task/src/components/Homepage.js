@@ -6,8 +6,9 @@ const Homepage = () => {
       <div className='b-1 land-col-5'>
         <div className='side-m '>
           <div className='last-p-1'>
-            <div>
+            <div className='input-p'>
               <img src='./Ellipse.png' alt='img' />
+              <img className='icon-a' src='./Group.png' alt="icon" />
             </div>
             <div className='side-m'>
               <div className='last-h-1'>Marry Doe</div>

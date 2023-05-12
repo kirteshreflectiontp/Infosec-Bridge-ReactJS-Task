@@ -2,10 +2,9 @@ import React from 'react'
 import Inputprops from './Inputs/Inputprops';
 import Headingprops from './Texts/Headingprops';
 import Buttonprops from './Buttons/Buttonprops';
+import { Link } from 'react-router-dom';
 const SignUp = () => {
-  const gotohome = () => {
-    window.location.href = "/Homepage";
-  }
+
   return (
     <div className='side-m'>
       <div className='land-col-3'>
@@ -29,15 +28,17 @@ const SignUp = () => {
         <div >
           <p className=' input-2-clr'>Are you an Agency?<span className='star-imp'>*</span></p>
           <div className='r-wrap'>
-          <input className='radio-input' type='radio' id="yes" name="Agency" value="yes" />
-          <label className='radio-lbl' for="yes">Yes</label>
-          <input className='radio-input' type='radio' id="no" name="Agency" value="no" />
-          <label className='radio-lbl' for="no">No</label>
+            <input className='radio-input' type='radio' id="yes" name="Agency" value="yes" />
+            <label className='radio-lbl' for="yes">Yes</label>
+            <input className='radio-input' type='radio' id="no" name="Agency" value="no" />
+            <label className='radio-lbl' for="no">No</label>
           </div>
         </div>
       </div>
-      <div className='land-col-4' onClick={gotohome}>
-        <Buttonprops type="button" className='btn-1 btn-common btn-h-w' name='Create Account' />
+      <div className='land-col-4' >
+        <Link to='/Homepage'>
+          <Buttonprops type="button" className='btn-1 btn-common btn-h-w' name='Create Account' />
+        </Link>
       </div>
     </div>
   )

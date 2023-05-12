@@ -3,10 +3,9 @@ import Headingprops from './Texts/Headingprops';
 import Textprops from './Texts/Textprops';
 import Inputprops from './Inputs/Inputprops';
 import Buttonprops from './Buttons/Buttonprops';
+import { Link } from 'react-router-dom';
 const SignIn = () => {
-  const gotohome=()=>{
-    window.location.href="/Homepage";
-  }
+
   return (
     <div className='side-m'>
       <div className='m-1'></div>
@@ -21,8 +20,10 @@ const SignIn = () => {
         <div className='input-p m-3'>
           <Inputprops classNamelabel='input-lbl-1' className='input-1 btn-h-w' label='Password' placeholder='   Enter password' />
         </div>
-        <div onClick={gotohome}>
-          <Buttonprops type="button" className='btn-login btn-common btn-h-w' name='Login' />
+        <div>
+          <Link to='/Homepage'>
+            <Buttonprops type="button" className='btn-login btn-common btn-h-w' name='Login' />
+          </Link>
         </div>
       </div>
     </div>
